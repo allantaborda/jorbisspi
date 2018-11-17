@@ -1,0 +1,2 @@
+# Provider for Vorbis sound file-reading services
+com.allantaborda.jorbisspi.VorbisAudioFileReader
