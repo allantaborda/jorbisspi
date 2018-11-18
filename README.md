@@ -13,8 +13,10 @@ Replacing the original Javazoom's Vorbis SPI by this minimalist version in a pro
 
 To include JOrbis SPI as a dependency in the pom.xml file (in the case of using Maven), simply include the following excerpt inside the "dependencies" tag of the file:
 
+```
 <dependency>
 	<groupId>com.allantaborda</groupId>
 	<artifactId>jorbisspi</artifactId>
 	<version>1.0.5</version>
 </dependency>
+```
