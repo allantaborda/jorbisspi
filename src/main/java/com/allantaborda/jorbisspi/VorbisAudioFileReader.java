@@ -250,6 +250,7 @@ public class VorbisAudioFileReader extends AudioFileReader implements VorbisCons
 		}
 	}
 
+	/** Custom {@code AudioFileFormat} for OGG Vorbis file format **/
 	private class VorbisAudioFileFormat extends AudioFileFormat{
 		private Map<String, Object> props;
 

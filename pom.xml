@@ -6,6 +6,58 @@
 	<name>JOrbis SPI</name>
 	<description>Minimalist version of Javazoom's Vorbis SPI, a JavaSound SPI for JOrbis (an implementation of OGG Vorbis decoder), with only 4 source files and no dependency of Tritonus library.</description>
 	<url>https://github.com/allantaborda/jorbisspi</url>
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License</name>
+			<url>https://www.gnu.org/licenses/lgpl-2.1.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>Tom Kimpton</name>
+			<email>tkimpton@gooberdude.com</email>
+			<url>http://gooberdude.com</url>
+			<roles>
+				<role>Original developer of VorbisSPI</role>
+			</roles>
+			<organization>JavaZOOM</organization>
+			<organizationUrl>http://www.javazoom.net</organizationUrl>
+		</developer>
+		<developer>
+			<name>Matthias Pfisterer</name>
+			<email>matthias.pfisterer@gmx.de</email>
+			<url>http://jsresources.sourceforge.net/</url>
+			<roles>
+				<role>Original developer of Tritonus library</role>
+			</roles>
+			<organization>Tritonus</organization>
+			<organizationUrl>http://www.tritonus.org</organizationUrl>
+		</developer>
+		<developer>
+			<name>Florian Bomers</name>
+			<email>matthias.pfisterer@gmx.de</email>
+			<url>http://www.bomers.de</url>
+			<roles>
+				<role>Original developer of Tritonus library</role>
+			</roles>
+			<organization>Tritonus</organization>
+			<organizationUrl>http://www.tritonus.org</organizationUrl>
+		</developer>
+		<developer>
+			<name>Allan Taborda dos Santos</name>
+			<email>allan-taborda@bol.com.br</email>
+			<url>https://github.com/allantaborda/</url>
+			<roles>
+				<role>Developer</role>
+				<role>Packeger</role>
+			</roles>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://github.com/allantaborda/jorbisspi.git</connection>
+		<developerConnection>scm:git:ssh://github.com:allantaborda/jorbisspi.git</developerConnection>
+		<url>http://github.com/allantaborda/jorbisspi/tree/master</url>
+	</scm>
 	<dependencies>
 		<dependency>
 			<groupId>org.jcraft</groupId>
